@@ -1,0 +1,79 @@
+{
+  "name": "Template",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$path": "src/ReplicatedStorage",
+      
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService"
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/StarterPlayerScripts"
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "$path": "src/Workspace",
+      "Spawn": {
+        "$className": "SpawnLocation",
+        "$properties": {
+          "Size": [
+            5,
+            1,
+            5
+          ],
+          "Position": [
+            0,
+            10,
+            0
+          ],
+          "Anchored": true,
+          "Transparency": 0.7
+        }
+      },
+
+      "Chunks": {
+        "$className": "Folder"
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel",
+        "FogEnd": 100000000000000,
+        "ClockTime": 0
+      },
+
+      "Atmosphere": {
+        "$className": "Atmosphere",
+        "$properties": {
+
+        }
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
