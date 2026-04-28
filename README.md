@@ -1,1 +1,1 @@
-# Leave A Note Infitite Project
+# Leave A Note Infinite Project
